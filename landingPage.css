@@ -1,0 +1,74 @@
+.heading {
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.HomeIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.AboutIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.ProjectsIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.ContactIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.intro{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nixie One', cursive;
+    margin-top: 300px;
+    font-size: 50px;
+    text-indent: 50px;
+  }
+  /*.intro:hover{
+    text-transform: uppercase;
+  }*/
+.intro2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-indent: 50px;
+  }
+  .intro2:hover {
+    text-transform: uppercase;
+  }
+.SocialIcons {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-top: 210px;
+  margin-bottom: 20px;
+}
+.GitHubIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.LinkedInIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+.PDFIcon:hover{
+  transform: scale(1.5);
+  transition-duration: hover;
+}
+
+/*@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}*/
