@@ -1,15 +1,20 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-
+import react from 'react';
+import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom';
+import React, {Component} from 'react';
 import Home from './web-pages/Home.js';
+import notFoundPage from './web-pages/404notFound.js';
 //import Signup from '../web-pages/Signup';
+
+//pages
 
 const Main = () => {
   return (
-    <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/signup' component={Signup}></Route>
-    </Switch>
+    <Router>
+      <Switch>
+      <Route exact path='/' component={Home} />
+      <Route component ={notFoundPage} />
+      </Switch>
+    </Router>
   );
 }
 
