@@ -1,5 +1,5 @@
 //import './App.css';
-import '.Home.css';
+import './landingPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHome} from '@fortawesome/free-solid-svg-icons';
 import {faQuestionCircle} from '@fortawesome/free-regular-svg-icons';
@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 </Link>
 
 
-function landingPage() {
+function Home() {
   return (
     <div>
     <div className='heading'>
