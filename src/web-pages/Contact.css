@@ -41,9 +41,7 @@
   font-size: 20px;
   text-indent: 50px;
   }
-  .intro2:hover {
-    text-transform: uppercase;
-  }
+
 .SocialIcons {
   display: flex;
   align-items: baseline;
@@ -62,4 +60,8 @@
 .PDFIcon:hover{
   transform: scale(1.5);
   transition-duration: hover;
+}
+
+.Link {
+  color: black;
 }

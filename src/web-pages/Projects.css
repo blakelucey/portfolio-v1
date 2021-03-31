@@ -63,3 +63,7 @@
   transform: scale(1.5);
   transition-duration: hover;
 }
+
+.Link {
+  color: black;
+}

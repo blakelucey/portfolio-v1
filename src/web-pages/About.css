@@ -20,30 +20,37 @@
   transform: scale(1.5);
   transition-duration: hover;
 }
-.intro{
+.title{
   display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Nixie One', cursive;
-    margin-top: 300px;
-    font-size: 50px;
-    text-indent: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin: auto;
+  font-family: 'Nixie One', cursive;
+  font-size: 35px;
+  text-indent: 50px;
   }
   /*.intro:hover{
     text-transform: uppercase;
   }*/
-.intro2{
+.text{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  width: 700px;
+  margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-indent: 50px;
   }
-  .intro2:hover {
+  /*.text:hover {
     text-transform: uppercase;
-  }
+  }*/
 .SocialIcons {
   display: flex;
   align-items: baseline;
@@ -62,4 +69,12 @@
 .PDFIcon:hover{
   transform: scale(1.5);
   transition-duration: hover;
+}
+.Link {
+  color: black;
+}
+
+.image {
+  height: 500px;
+  width: 500px;
 }
