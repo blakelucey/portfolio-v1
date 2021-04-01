@@ -19,27 +19,46 @@ const Contact = () => {
      <Link to ='/Projects' className = 'Link'><FontAwesomeIcon icon={faTasks} size = '4x' className='ProjectsIcon'/> </Link>
      <Link to ='/Contact' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </Link>
      </div>
-
-     <div>
-       <form class = 'form-floating'>
+<form action='mailto:blucey7@gmail.com' method='get'>
+       <div className = 'contact-form'>
+     <div className = 'row g-2'>
+       <div className = 'col-md'>
+         <div className = 'form-floating'>
          <input type = 'First Name' class = 'form-control' id = 'fName' placeholder='Your' value = 'Your'></input>
          <label for = 'fName'>First Name</label>
-
-       </form>
-       <form class = 'form-floating'>
+         </div>
+       </div>
+       <div className = 'col-md'>
+         <div className = 'form-floating'>
          <input type = 'Last Name' class = 'form-control' id = 'lName' placeholder='Name' value = 'Name'></input>
          <label for = 'lName'>Last Name</label>
+         </div>
+       </div>
+     </div>
 
-       </form>
-       <form class="form-floating">
-         <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" value="you@example.com"></input>
+     <div className = 'row g-2'>
+       <div className = 'col-md'>
+         <div className = 'form-floating'>
+          <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" value="you@example.com"></input>
            <label for="emailAddress">Email Address</label>
-         </form>
-         <form class = 'form-floating'>
+           </div>
+         </div>
+         <div className = 'col-md'>
+           <div className = 'form-floating'>
            <input type = 'phone' class = 'form-control' id = 'phoneNumber' placeholder='Your phone number...' value = '111-111-1111'></input>
            <label for = 'phoneNumber'>Phone Number</label>
-         </form>
-  </div>
+         </div>
+       </div>
+     </div>
+     <div className = 'form-floating'>
+       <textarea className = 'form-control' placeholder = 'Write your message' id = 'floatingTextArea' value = 'Get in touch.'></textarea>
+       <label for = 'floatingTextArea'>Message</label>
+     </div>
+     <div className = 'd-grid gap-2'>
+         <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+     </div>
+   </div>
+ </form>
 
      <div className='SocialIcons'>
      <a href = 'https://github.com/blakelucey' className = 'Link'><FontAwesomeIcon icon={faGithub} size='4x' className='GitHubIcon' /></a>

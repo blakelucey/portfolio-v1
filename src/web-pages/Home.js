@@ -26,6 +26,7 @@ function Home() {
      <h1 className='intro'>
      My name's Blake, it's nice to meet you.
      </h1>
+
      <p className='intro-2'>I'm an aspiring software engineer, self-taught programmer, and a Team Lead in the field of Healthcare.
      </p>
 

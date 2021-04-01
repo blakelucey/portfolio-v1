@@ -2,8 +2,9 @@
   display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
-}
+    margin:auto;
+
+  }
 .HomeIcon:hover{
   transform: scale(1.5);
   transition-duration: hover;
@@ -22,16 +23,17 @@
 }
 .title{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   width: 200px;
   height: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin: auto;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   font-family: 'Nixie One', cursive;
   font-size: 35px;
   text-indent: 50px;
+
+
   }
   /*.intro:hover{
     text-transform: uppercase;
@@ -42,21 +44,22 @@
   align-items: flex-start;
   margin-left: auto;
   width: 700px;
-  margin: auto;
+  margin-left: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-indent: 50px;
+
   }
   /*.text:hover {
     text-transform: uppercase;
   }*/
 .SocialIcons {
   display: flex;
-  align-items: baseline;
+  /*align-items: baseline;*/
   justify-content: space-around;
-  margin-top: 210px;
-  margin-bottom: 20px;
+  margin: auto;
+
 }
 .GitHubIcon:hover{
   transform: scale(1.5);
@@ -74,7 +77,18 @@
   color: black;
 }
 
-.image {
-  height: 500px;
+.me {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-content: flex-start;
+  margin-right: 50px;
   width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }

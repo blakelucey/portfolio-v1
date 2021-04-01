@@ -23,12 +23,14 @@ const About = () => {
      <h1 className='title'>
      <u>About</u>
      </h1>
+     <div className = 'image'>
      <p className='text'>
        <br></br>
        Hi, I'm Blake.  I enjoy learning and have many different interests but my main pursuits include coding, exercising, and reading.
        <br></br>
        <br></br>
        Regarding my career, I'm mainly interested in frontend web development with react.js and backend web development/data science involving Python/R.
+
        <br></br>
        <br></br>
        In the context of this website, exercise is a catch-all for activity.  I love being outdoors, working-out, and enjoying the sunshine.
@@ -37,7 +39,8 @@ const About = () => {
        I'm deeply passionate about reading books that allow me to further my understanding of the world.
        Some books that I've recently enjoyed include: <l><i>The Coddling of the American Mind</i>, <i>Capitalism in America</i>, and <i>The Strange Death of Europe</i>.</l>
      </p>
-
+     <img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me'></img>
+   </div>
 
      <div className='SocialIcons'>
      <a href = 'https://github.com/blakelucey' className = 'Link'><FontAwesomeIcon icon={faGithub} size='4x' className='GitHubIcon' /></a>

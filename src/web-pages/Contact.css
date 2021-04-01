@@ -20,7 +20,7 @@
   transform: scale(1.5);
   transition-duration: hover;
 }
-.intro{
+/*.intro{
   display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
   /*.intro:hover{
     text-transform: uppercase;
   }*/
-.intro2{
+/*.intro2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,13 +40,13 @@
   font-weight: 300;
   font-size: 20px;
   text-indent: 50px;
-  }
+  }*/
 
 .SocialIcons {
   display: flex;
   align-items: baseline;
   justify-content: space-around;
-  margin-top: 210px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 .GitHubIcon:hover{
@@ -64,4 +64,34 @@
 
 .Link {
   color: black;
+}
+
+.contact-form {
+  margin-top: 100px;
+  margin-left: 225px;
+  width: 1000px;
+  color: var( --bs-white);
+
+}
+#floatingTextArea {
+  width: 1000px;
+  height: 250px;
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+}
+#phoneNumber {
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+}
+#emailAddress {
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+}
+#lName {
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+}
+#fName {
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
 }
