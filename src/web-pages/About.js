@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div>
+    <div className = 'background'>
     <div className='heading'>
      <Link to ='/' className = 'Link'><FontAwesomeIcon icon={faHome} size = '4x' className='HomeIcon'/></Link>
      <Link to ='/About' className = 'Link'><FontAwesomeIcon icon={faQuestionCircle} size = '4x' className='AboutIcon'/> </Link>
@@ -33,13 +33,16 @@ const About = () => {
 
        <br></br>
        <br></br>
-       In the context of this website, exercise is a catch-all for activity.  I love being outdoors, working-out, and enjoying the sunshine.
+       I find exercising incredibly relaxing, and a very rewarding way to take care of myself.  I love being outdoors, working-out, and enjoying the sunshine.
        <br></br>
        <br></br>
        I'm deeply passionate about reading books that allow me to further my understanding of the world.
-       Some books that I've recently enjoyed include: <l><i>The Coddling of the American Mind</i>, <i>Capitalism in America</i>, and <i>The Strange Death of Europe</i>.</l>
+       Some books that I've recently enjoyed include: 'The Coddling of the American Mind', 'Capitalism in America', and 'The Strange Death of Europe.'
      </p>
-     <img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me'></img>
+     <br></br>
+     <br></br>
+     <br></br>
+     <Link to ='/Contact' className = 'Link'><img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me' ></img></Link>
    </div>
 
      <div className='SocialIcons'>

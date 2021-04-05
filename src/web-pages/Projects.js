@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div>
+    <div className = 'background'>
     <div className='heading'>
      <Link to ='/' className = 'Link'><FontAwesomeIcon icon={faHome} size = '4x' className='HomeIcon'/></Link>
      <Link to ='/About' className = 'Link'><FontAwesomeIcon icon={faQuestionCircle} size = '4x' className='AboutIcon'/> </Link>
@@ -20,11 +20,22 @@ const Projects = () => {
      <Link to ='/Contact' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </Link>
      </div>
 
-     <h1 className='intro'>
-     This is the Projects Page
-     </h1>
-     <p className='intro2'>I'm an aspiring software engineer, self-taught programmer, and a Team Lead in the field of Healthcare.
-     </p>
+     <div className = 'projects'>
+       <h1 className = 'title'><u>Projects</u></h1>
+     <div className='project-1'>
+     <a href = 'https://nervous-elion-aaee65.netlify.app/' id='Random-Quote-Machine'><img id = 'quotes-gif' src = '/img/random-quotes.gif' alt = 'random quote machine gif'></img></a>
+   </div>
+
+     <div className = 'project-2'>
+       <a href = 'https://affectionate-tereshkova-098232.netlify.app/' id ='Markdown Previewer'><img id = 'markdown-gif' src = '/img/markdown-gif.gif' alt = 'markdown previewer gif'></img></a>
+     </div>
+
+     <div className = 'project-3'>
+       <a href =  'https://dreamy-banach-11c214.netlify.app/' id = 'Drum Machine'><img id = 'drum-gif' src = '/img/drum-gif.gif' alt = 'Drum Machine gif'></img></a>
+
+     </div>
+   </div>
+
 
 
      <div className='SocialIcons'>

@@ -9,10 +9,67 @@ import {faFilePdf} from '@fortawesome/free-regular-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
+const axios = require('axios').default;
 
-const Contact = () => {
+
+
+class Contact extends React.Component {
+  constructor(props){
+  super(props);
+  this.state = {
+    fName: '',
+    lName: '',
+    emailAddress: '',
+    phoneNumber: '',
+    Message: ''
+  }
+  this.onfNameChange = this.onfNameChange.bind(this);
+  this.onlNameChange = this.onlNameChange.bind(this);
+  this.onemailAddressChange = this.onemailAddressChange.bind(this);
+  this.onphoneNumberChange = this.onphoneNumberChange.bind(this);
+  this.onMessageChange = this.onMessageChange.bind(this);
+  this.submitEmail = this.submitEmail.bind(this);
+  this.resetForm = this.resetForm.bind(this);
+}
+onfNameChange(event) {
+  this.setState({fName: event.target.value})
+}
+onlNameChange(event) {
+  this.setState({lName: event.target.value})
+}
+onemailAddressChange(event) {
+  this.setState({emailAddress: event.target.value})
+}
+onphoneNumberChange(event) {
+  this.setState({phoneNumber: event.target.value})
+}
+onMessageChange(event) {
+  this.setState({Message: event.target.value})
+}
+
+submitEmail(e){
+        e.preventDefault();
+        axios({
+          method: "POST",
+          url:"/send",
+          data:  this.state
+        }).then((response)=>{
+          if (response.data.status === 'success'){
+              alert("Message Sent.");
+              this.resetForm()
+          }else if(response.data.status === 'fail'){
+              alert("Message failed to send.")
+          }
+        })
+}
+resetForm(){
+        this.setState({fName: '', lName: '',emailAddress:'', phoneNumber: '', Message: ''})
+}
+
+render(){
+  
   return (
-    <div>
+    <div className = 'background'>
     <div className='heading'>
      <Link to ='/' className = 'Link'><FontAwesomeIcon icon={faHome} size = '4x' className='HomeIcon'/></Link>
      <Link to ='/About' className = 'Link'><FontAwesomeIcon icon={faQuestionCircle} size = '4x' className='AboutIcon'/> </Link>
@@ -24,13 +81,13 @@ const Contact = () => {
      <div className = 'row g-2'>
        <div className = 'col-md'>
          <div className = 'form-floating'>
-         <input type = 'First Name' class = 'form-control' id = 'fName' placeholder='Your' value = 'Your'></input>
+         <input onChange={this.onfNameChange} type = 'First Name' class = 'form-control' id = 'fName' placeholder='Your' value = 'Your'></input>
          <label for = 'fName'>First Name</label>
          </div>
        </div>
        <div className = 'col-md'>
          <div className = 'form-floating'>
-         <input type = 'Last Name' class = 'form-control' id = 'lName' placeholder='Name' value = 'Name'></input>
+         <input onChange={this.onlNameChange} type = 'Last Name' class = 'form-control' id = 'lName' placeholder='Name' value = 'Name'></input>
          <label for = 'lName'>Last Name</label>
          </div>
        </div>
@@ -39,23 +96,23 @@ const Contact = () => {
      <div className = 'row g-2'>
        <div className = 'col-md'>
          <div className = 'form-floating'>
-          <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" value="you@example.com"></input>
+          <input onChange={this.onemailAddressChange} type="email" class="form-control" id="emailAddress" placeholder="name@example.com" value="you@example.com"></input>
            <label for="emailAddress">Email Address</label>
            </div>
          </div>
          <div className = 'col-md'>
            <div className = 'form-floating'>
-           <input type = 'phone' class = 'form-control' id = 'phoneNumber' placeholder='Your phone number...' value = '111-111-1111'></input>
+           <input onChange={this.onphoneNumberChange} type = 'phone' class = 'form-control' id = 'phoneNumber' placeholder='Your phone number...' value = '111-111-1111'></input>
            <label for = 'phoneNumber'>Phone Number</label>
          </div>
        </div>
      </div>
      <div className = 'form-floating'>
-       <textarea className = 'form-control' placeholder = 'Write your message' id = 'floatingTextArea' value = 'Get in touch.'></textarea>
-       <label for = 'floatingTextArea'>Message</label>
+       <textarea onChange={this.onMessageChange} className = 'form-control' placeholder = 'Write your message' id = 'Message' value = 'Get in touch.'></textarea>
+       <label for = 'Message'>Message</label>
      </div>
      <div className = 'd-grid gap-2'>
-         <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+         <button onClick = {this.submitEmail} type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
      </div>
    </div>
  </form>
@@ -68,6 +125,7 @@ const Contact = () => {
 
      </div>
   );
+};
 };
 
 export default Contact;
