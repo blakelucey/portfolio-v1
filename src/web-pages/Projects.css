@@ -35,7 +35,7 @@
   /*.intro:hover{
     text-transform: uppercase;
   }*/
-.intro2{
+/*.intro2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,10 +43,10 @@
   font-weight: 300;
   font-size: 20px;
   text-indent: 50px;
-  }
-  .intro2:hover {
+  }*/
+  /*.intro2:hover {
     text-transform: uppercase;
-  }
+  }*/
 .SocialIcons {
   display: flex;
   align-items: baseline;
@@ -116,4 +116,115 @@ padding-bottom: 10px;
   align-content: flex-start;
   margin-left: 50px;
   margin-top: 50px;
+}
+.project-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.project-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.project-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.project-1-text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+}
+.project-2-text{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+}
+.project-3-text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+#quote-title{
+  width: 500px;
+  /*position: absolute;
+  left: 42%;
+  bottom: 40%;*/
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-bottom: 100px;
+
+}
+#markdown-title{
+  width:500px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+#drum-title {
+  width:500px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+#quote-description {
+  /*position: absolute;
+  left: 46%;
+  bottom: 40%;*/
+  width: 700px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: auto;
+  margin-top: -50px;
+}
+#markdown-description{
+  width: 700px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: auto;
+  margin-top: -50px;
+}
+#drum-description {
+  width: 700px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: auto;
+  margin-top: -50px;
+}
+#tech-used-1{
+  color: black;
+  font-size: 20px;
+}
+
+#tech-used-2{
+  color: black;
+  font-size: 20px;
+}
+#tech-used-3{
+  color: black;
+  font-size: 20px;
 }

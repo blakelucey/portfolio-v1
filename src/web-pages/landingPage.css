@@ -24,7 +24,7 @@
   display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 50px;
     text-indent: 50px;
@@ -39,16 +39,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 25px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+  font-size: 22px;
   text-indent: 50px;
   height: auto;
   width: auto;
   margin-bottom: 200px;
   }
+
   .intro-2:hover {
     text-transform: uppercase;
+    width: auto;
   }
 .SocialIcons {
   display: flex;
@@ -74,6 +76,7 @@
 .Link {
   color: black;
 }
+
 /*@keyframes rotation {
   from {
     transform: rotate(0deg);

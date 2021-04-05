@@ -20,9 +20,7 @@ const About = () => {
      <Link to ='/Contact' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </Link>
      </div>
 
-     <h1 className='title'>
-     <u>About</u>
-     </h1>
+     
      <div className = 'image'>
      <p className='text'>
        <br></br>
