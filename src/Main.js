@@ -1,6 +1,5 @@
-import react from 'react';
-import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom';
-import React, {Component} from 'react';
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import React from 'react';
 
 
 //import Signup from '../web-pages/Signup';
