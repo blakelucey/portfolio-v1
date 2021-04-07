@@ -17,7 +17,7 @@ const Projects = () => {
      <Link to ='/' className = 'Link'><FontAwesomeIcon icon={faHome} size = '4x' className='HomeIcon'/></Link>
      <Link to ='/About' className = 'Link'><FontAwesomeIcon icon={faQuestionCircle} size = '4x' className='AboutIcon'/> </Link>
      <Link to ='/Projects' className = 'Link'><FontAwesomeIcon icon={faTasks} size = '4x' className='ProjectsIcon'/> </Link>
-     <Link to ='/Contact' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </Link>
+     <a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </a>
      </div>
 
      <div className = 'projects'>
@@ -28,7 +28,7 @@ const Projects = () => {
    <h1 id = 'quote-title'>Random Quote Machine</h1>
      <h2 id = 'quote-description'>A simple web app to provide users with a random quote, and the means to share that quote to Instagram and Twitter.</h2>
     <a href = 'https://github.com/blakelucey/Random_Quote_Generator' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
-   <h3 id = 'tech-used-1'>React.js</h3>
+   <h3 id = 'tech-used-1'>React.js, Github, Gist, Font-Awesome</h3>
    </div>
  </div>
 
@@ -58,6 +58,48 @@ const Projects = () => {
 
          <h3 id = 'tech-used-3'>React.js, Source of audio Amazon AWS</h3>
 
+       </div>
+     </div>
+
+     <div className = 'project-4'>
+       <img id = 'FA-img' src = '/img/efficientfrontier.png' alt = 'financial analysis capstone efficient frontier'></img>
+       <div className = 'project-4-text'>
+         <br></br>
+         <h1 id = 'FA-title'>Financial Analysis Capstone</h1>
+         <h2 id = 'FA-description'>Analyzed a portfolio consisting of five stocks.  Calculated and plotted key financial statistics.  Optimized the portfolio using the efficient frontier.</h2>
+         <br></br>
+         <br></br>
+        <a href = 'https://github.com/blakelucey/Financial_Analysis_Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
+        <h3 id = 'tech-used-4'>Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, CVXOPT.</h3>
+       </div>
+     </div>
+
+     <div className = 'project-5'>
+       <img id = 'ML-img' src = '/img/machine.png' alt = 'Machine Learning capstone graph'></img>
+       <div className = 'project-5-text'>
+         <br></br><br></br><br></br>
+         <h1 id = 'ML-title'>Machine Learning Capstone</h1>
+         <h2 id = 'ML-description'>Explored, augmented, and derived questions from a dataset.  I tested my hypothesis via K Nearest Neighbors Classification/Regression, Random Forest Classification, and Logistic Regression.</h2>
+       <br></br>
+       <br></br>
+      <a href = 'https://github.com/blakelucey/ML-Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
+      <h3 id = 'tech-used-5'>Python, Jupyter Notebook, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn.</h3>
+       </div>
+       <br></br>
+       <br></br>
+     </div>
+
+     <div className = 'project-6'>
+       <img id = 'DA-img' src = '/img/DA-img.png' alt = 'Data Analysis Capstone'></img>
+       <div className = 'project-6-text'>
+         <br></br>
+         <h1 id = 'DA-title'>Data Analysis Capstone</h1>
+         <h2 id = 'DA-description'>Conducted an AB test based on potential Gym members who had received a fitness test before signing up for a membership.
+             I then used this information to determine whether the fitness test was effective in increasing the membership rate.</h2>
+           <br></br>
+           <br></br>
+             <a href = 'https://github.com/blakelucey/Data_Analysis_Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
+             <h3 id = 'tech-used-6'>Python, SQLite, Jupyter Notebook, SciPy, Pandas, Matplotlib</h3>
        </div>
      </div>
    </div>

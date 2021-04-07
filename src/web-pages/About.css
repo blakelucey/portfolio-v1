@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-around;
     margin:auto;
-
   }
 .HomeIcon:hover{
   transform: scale(1.5);
@@ -50,7 +49,8 @@
   font-weight: bold;
   font-size: 23px;
   border: solid;
-  border-color: inherit;
+  border-color: black;
+  border-width: thick;
   padding: 20px;
   backdrop-filter: blur(2px);
 
@@ -62,7 +62,8 @@
   display: flex;
   /*align-items: baseline;*/
   justify-content: space-around;
-  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
 
 }
 .GitHubIcon:hover{
@@ -84,15 +85,15 @@
 .me {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  align-content: flex-start;
+  justify-content: center;
   margin-right: 50px;
   margin-left: 10px;
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border-style: groove;
-  border-color: inherit;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
 }
 .me:hover {
   opacity: 70%;

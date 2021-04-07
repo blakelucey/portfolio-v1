@@ -17,10 +17,10 @@ const About = () => {
      <Link to ='/' className = 'Link'><FontAwesomeIcon icon={faHome} size = '4x' className='HomeIcon'/></Link>
      <Link to ='/About' className = 'Link'><FontAwesomeIcon icon={faQuestionCircle} size = '4x' className='AboutIcon'/> </Link>
      <Link to ='/Projects' className = 'Link'><FontAwesomeIcon icon={faTasks} size = '4x' className='ProjectsIcon'/> </Link>
-     <Link to ='/Contact' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </Link>
+     <a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </a>
      </div>
 
-     
+
      <div className = 'image'>
      <p className='text'>
        <br></br>
@@ -40,7 +40,7 @@ const About = () => {
      <br></br>
      <br></br>
      <br></br>
-     <Link to ='/Contact' className = 'Link'><img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me' ></img></Link>
+     <a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' className = 'Link'><img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me' ></img></a>
    </div>
 
      <div className='SocialIcons'>
