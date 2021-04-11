@@ -181,8 +181,7 @@ padding-bottom: 10px;
   align-items: flex-start;
   margin-top: 50px;
   margin-right: 50px;
-  height: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .project-6 {
   display: flex;
@@ -221,12 +220,11 @@ padding-bottom: 10px;
 
 }
 .project-5-text {
-  height: 265px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: stretch;
-  margin-left: 35px;
 }
 .project-6-text {
   height: 300px;
