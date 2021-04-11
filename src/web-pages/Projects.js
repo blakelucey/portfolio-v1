@@ -77,7 +77,7 @@ const Projects = () => {
      <div className = 'project-5'>
        <img id = 'ML-img' src = '/machine.png' alt = 'Machine Learning capstone graph'></img>
        <div className = 'project-5-text'>
-         <br></br><br></br><br></br>
+         <br></br>
          <h1 id = 'ML-title'>Machine Learning Capstone</h1>
          <h2 id = 'ML-description'>Explored, augmented, and derived questions from a dataset.  I tested my hypothesis via K Nearest Neighbors Classification/Regression, Random Forest Classification, and Logistic Regression.</h2>
        <br></br>
@@ -85,8 +85,6 @@ const Projects = () => {
       <a href = 'https://github.com/blakelucey/ML-Capstone' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
       <h3 id = 'tech-used-5'>Python, Jupyter Notebook, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn.</h3>
        </div>
-       <br></br>
-       <br></br>
      </div>
 
      <div className = 'project-6'>
