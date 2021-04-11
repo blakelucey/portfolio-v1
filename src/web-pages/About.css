@@ -96,7 +96,7 @@
   border-width: thick;
 }
 .me:hover {
-  opacity: 70%;
+  transform: scale(0.95);
 }
 
 .image {
