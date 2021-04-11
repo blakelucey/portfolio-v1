@@ -46,7 +46,7 @@ const About = () => {
      <div className='SocialIcons'>
        <a href = 'https://github.com/blakelucey' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='4x' className='GitHubIcon' /></a>
        <a href = 'https://www.linkedin.com/in/blake-lucey' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faLinkedin} size='4x' className='LinkedInIcon'/></a>
-       <a href = './programming_résumé.pdf' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faFilePdf} size='4x' className='PDFIcon'/></a>
+       <a href = 'https://www.dropbox.com/s/9sikf9phf06qwyu/programming_r%C3%A9sum%C3%A9.pdf?dl=0' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faFilePdf} size='4x' className='PDFIcon'/></a>
      </div>
 
      </div>
