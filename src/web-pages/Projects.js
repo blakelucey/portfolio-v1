@@ -23,7 +23,7 @@ const Projects = () => {
      <div className = 'projects'>
        <br></br>
      <div className='project-1'>
-       <a href = 'https://nervous-elion-aaee65.netlify.app/' id='Random-Quote-Machine'><img id = 'quotes-gif' src = '/img/random-quotes.gif' alt = 'random quote machine gif'></img></a>
+       <a href = 'https://nervous-elion-aaee65.netlify.app/' id='Random-Quote-Machine'><img id = 'quotes-gif' src = '/random-quotes.gif' alt = 'random quote machine gif'></img></a>
          <div className = 'project-1-text'>
    <h1 id = 'quote-title'>Random Quote Machine</h1>
      <h2 id = 'quote-description'>A simple web app to provide users with a random quote, and the means to share that quote to Instagram and Twitter.</h2>
@@ -34,7 +34,7 @@ const Projects = () => {
 
 
      <div className = 'project-2'>
-       <a href = 'https://affectionate-tereshkova-098232.netlify.app/' id ='Markdown Previewer'><img id = 'markdown-gif' src = '/img/markdown-gif.gif' alt = 'markdown previewer gif'></img></a>
+       <a href = 'https://affectionate-tereshkova-098232.netlify.app/' id ='Markdown Previewer'><img id = 'markdown-gif' src = '/markdown-gif.gif' alt = 'markdown previewer gif'></img></a>
       <div className = 'project-2-text'>
         <br></br>
         <h1 id = 'markdown-title'>Markdown Previewer</h1>
@@ -47,7 +47,7 @@ const Projects = () => {
  </div>
 
      <div className = 'project-3'>
-       <a href =  'https://dreamy-banach-11c214.netlify.app/' id = 'Drum Machine'><img id = 'drum-gif' src = '/img/drum-gif.gif' alt = 'Drum Machine gif'></img></a>
+       <a href =  'https://dreamy-banach-11c214.netlify.app/' id = 'Drum Machine'><img id = 'drum-gif' src = '/drum-gif.gif' alt = 'Drum Machine gif'></img></a>
        <div className = 'project-3-text'>
          <br></br>
          <h1 id = 'drum-title'>Drum Machine</h1>
@@ -62,7 +62,7 @@ const Projects = () => {
      </div>
 
      <div className = 'project-4'>
-       <img id = 'FA-img' src = '/img/efficientfrontier.png' alt = 'financial analysis capstone efficient frontier'></img>
+       <img id = 'FA-img' src = '/efficientfrontier.png' alt = 'financial analysis capstone efficient frontier'></img>
        <div className = 'project-4-text'>
          <br></br>
          <h1 id = 'FA-title'>Financial Analysis Capstone</h1>
@@ -75,7 +75,7 @@ const Projects = () => {
      </div>
 
      <div className = 'project-5'>
-       <img id = 'ML-img' src = '/img/machine.png' alt = 'Machine Learning capstone graph'></img>
+       <img id = 'ML-img' src = '/machine.png' alt = 'Machine Learning capstone graph'></img>
        <div className = 'project-5-text'>
          <br></br><br></br><br></br>
          <h1 id = 'ML-title'>Machine Learning Capstone</h1>
@@ -90,7 +90,7 @@ const Projects = () => {
      </div>
 
      <div className = 'project-6'>
-       <img id = 'DA-img' src = '/img/DA-img.png' alt = 'Data Analysis Capstone'></img>
+       <img id = 'DA-img' src = '/DA-img.png' alt = 'Data Analysis Capstone'></img>
        <div className = 'project-6-text'>
          <br></br>
          <h1 id = 'DA-title'>Data Analysis Capstone</h1>

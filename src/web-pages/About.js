@@ -40,7 +40,7 @@ const About = () => {
      <br></br>
      <br></br>
      <br></br>
-     <a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' className = 'Link'><img className = 'me' src ='/img/linkedinProfile.jpg' alt = 'me' ></img></a>
+     <a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' className = 'Link'><img className = 'me' src ='/linkedinProfile.jpg' alt = 'me' ></img></a>
    </div>
 
      <div className='SocialIcons'>
