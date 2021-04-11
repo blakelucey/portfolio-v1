@@ -23,38 +23,38 @@ const Projects = () => {
      <div className = 'projects'>
        <br></br>
      <div className='project-1'>
-       <a href = 'https://nervous-elion-aaee65.netlify.app/' id='Random-Quote-Machine'><img id = 'quotes-gif' src = '/random-quotes.gif' alt = 'random quote machine gif'></img></a>
+       <a href = 'https://nervous-elion-aaee65.netlify.app/' target = 'blank' id='Random-Quote-Machine'><img id = 'quotes-gif' src = '/random-quotes.gif' alt = 'random quote machine gif'></img></a>
          <div className = 'project-1-text'>
    <h1 id = 'quote-title'>Random Quote Machine</h1>
      <h2 id = 'quote-description'>A simple web app to provide users with a random quote, and the means to share that quote to Instagram and Twitter.</h2>
-    <a href = 'https://github.com/blakelucey/Random_Quote_Generator' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
+    <a href = 'https://github.com/blakelucey/Random_Quote_Generator' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
    <h3 id = 'tech-used-1'>React.js, Github, Gist, Font-Awesome</h3>
    </div>
  </div>
 
 
      <div className = 'project-2'>
-       <a href = 'https://affectionate-tereshkova-098232.netlify.app/' id ='Markdown Previewer'><img id = 'markdown-gif' src = '/markdown-gif.gif' alt = 'markdown previewer gif'></img></a>
+       <a href = 'https://affectionate-tereshkova-098232.netlify.app/' target = 'blank' id ='Markdown Previewer'><img id = 'markdown-gif' src = '/markdown-gif.gif' alt = 'markdown previewer gif'></img></a>
       <div className = 'project-2-text'>
         <br></br>
         <h1 id = 'markdown-title'>Markdown Previewer</h1>
         <h2 id ='markdown-description'>A web application that allows users to view Markdown syntax before writing it out.  This application also provides a preview window.</h2>
         <br></br>
         <br></br>
-        <a href = 'https://github.com/blakelucey/Markdown-Previewer' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
+        <a href = 'https://github.com/blakelucey/Markdown-Previewer' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
         <h3 id = 'tech-used-2'>React.js, Bootstrap, Github Flavored Markdown</h3>
         </div>
  </div>
 
      <div className = 'project-3'>
-       <a href =  'https://dreamy-banach-11c214.netlify.app/' id = 'Drum Machine'><img id = 'drum-gif' src = '/drum-gif.gif' alt = 'Drum Machine gif'></img></a>
+       <a href =  'https://dreamy-banach-11c214.netlify.app/' target = 'blank' id = 'Drum Machine'><img id = 'drum-gif' src = '/drum-gif.gif' alt = 'Drum Machine gif'></img></a>
        <div className = 'project-3-text'>
          <br></br>
          <h1 id = 'drum-title'>Drum Machine</h1>
          <h2 id = 'drum-description'>A web application that plays audio when a user presses a drumpad on the screen or presses one of the corresponding keys on their keyboard.</h2>
          <br></br>
          <br></br>
-        <a href = 'https://github.com/blakelucey/Drum-Machine' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
+        <a href = 'https://github.com/blakelucey/Drum-Machine' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
 
          <h3 id = 'tech-used-3'>React.js, Source of audio Amazon AWS</h3>
 
@@ -69,7 +69,7 @@ const Projects = () => {
          <h2 id = 'FA-description'>Analyzed a portfolio consisting of five stocks.  Calculated and plotted key financial statistics.  Optimized the portfolio using the efficient frontier.</h2>
          <br></br>
          <br></br>
-        <a href = 'https://github.com/blakelucey/Financial_Analysis_Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
+        <a href = 'https://github.com/blakelucey/Financial_Analysis_Capstone' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></a>
         <h3 id = 'tech-used-4'>Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, CVXOPT.</h3>
        </div>
      </div>
@@ -82,7 +82,7 @@ const Projects = () => {
          <h2 id = 'ML-description'>Explored, augmented, and derived questions from a dataset.  I tested my hypothesis via K Nearest Neighbors Classification/Regression, Random Forest Classification, and Logistic Regression.</h2>
        <br></br>
        <br></br>
-      <a href = 'https://github.com/blakelucey/ML-Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
+      <a href = 'https://github.com/blakelucey/ML-Capstone' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
       <h3 id = 'tech-used-5'>Python, Jupyter Notebook, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn.</h3>
        </div>
        <br></br>
@@ -98,7 +98,7 @@ const Projects = () => {
              I then used this information to determine whether the fitness test was effective in increasing the membership rate.</h2>
            <br></br>
            <br></br>
-             <a href = 'https://github.com/blakelucey/Data_Analysis_Capstone' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
+             <a href = 'https://github.com/blakelucey/Data_Analysis_Capstone' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' id = 'ML-link'/></a>
              <h3 id = 'tech-used-6'>Python, SQLite, Jupyter Notebook, SciPy, Pandas, Matplotlib</h3>
        </div>
      </div>
@@ -107,9 +107,9 @@ const Projects = () => {
 
 
      <div className='SocialIcons'>
-     <a href = 'https://github.com/blakelucey' className = 'Link'><FontAwesomeIcon icon={faGithub} size='4x' className='GitHubIcon' /></a>
-     <a href = 'https://www.linkedin.com/in/blake-lucey' className = 'Link'><FontAwesomeIcon icon={faLinkedin} size='4x' className='LinkedInIcon'/></a>
-     <a href = '/programming_résumé.pdf' className = 'Link'><FontAwesomeIcon icon={faFilePdf} size='4x' className='PDFIcon'/></a>
+       <a href = 'https://github.com/blakelucey' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faGithub} size='4x' className='GitHubIcon' /></a>
+       <a href = 'https://www.linkedin.com/in/blake-lucey' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faLinkedin} size='4x' className='LinkedInIcon'/></a>
+       <a href = './programming_résumé.pdf' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faFilePdf} size='4x' className='PDFIcon'/></a>
      </div>
 
      </div>
