@@ -42,7 +42,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: auto;
   width: 800px;
   margin-left: 50px;
   font-family: 'Nixie One', cursive;
