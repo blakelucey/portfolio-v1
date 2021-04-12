@@ -102,5 +102,6 @@
 }
 .Jumbotron-container{
   height: 20vh;
+  width: 80vh;
   object-position: center;
 }
