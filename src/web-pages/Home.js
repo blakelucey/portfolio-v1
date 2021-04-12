@@ -24,7 +24,7 @@ function Home() {
      <Button variant = 'dark'><Link to ='/Projects' className = 'Link'><FontAwesomeIcon icon={faTasks} size = '4x' className='ProjectsIcon'/> </Link></Button>
      <Button variant = 'dark'><a href = 'mailto:blucey7@gmail.com?subject=I look forward to hearing from you!' target = 'blank' className = 'Link'><FontAwesomeIcon icon={faEnvelopeOpenText} size='4x' className='ContactIcon'/> </a></Button>
      </div>
-<Jumbotron fluid>
+<Jumbotron>
 <div className = 'Jumbotron-container'>
      <h1 className = 'intro'>
      My name's Blake, it's nice to meet you.
