@@ -57,6 +57,16 @@ const Projects = () => {
        </Carousel.Caption>
      </Carousel.Item>
 
+  <Carousel.Item>
+            <a href =  'https://happy-murdock-8521d6.netlify.app/' target = 'blank'className="d-block w-100"><Image src = '/calc.gif' alt = 'Calculator gif' thumbnail id = 'calculator-gif'></Image></a>
+            <Carousel.Caption class = 'text-center'>
+              <h1><u>React Calculator</u></h1>
+              <p id = 'text' class = 'lead'>A web application/calculator similar to the calculator on apple devices.</p>
+                <h4 id = 'text'>React.js, Math.js, heropatterns</h4>
+           <Button variant = 'dark' size = 'lg' block href = 'https://github.com/blakelucey/react-calculator' target = 'blank'><FontAwesomeIcon icon={faGithub} size='2x' className='GitHubIcon' /></Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
 <Carousel.Item>
        <Image src = '/efficientfrontier.png' alt = 'financial analysis capstone efficient frontier' className="d-block w-100" thumbnail id = 'FA-img'></Image>
        <Carousel.Caption class = 'text-center'>
